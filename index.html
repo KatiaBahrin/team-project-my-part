@@ -3,50 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yacht Adventures</title>
 
-    <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,700&display=swap"
       rel="stylesheet"
     />
 
-    <!--Normalize-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
-    <!--Styles css-->
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/media.css" />
-  </head>
 
+    <title>Yacht Adventures</title>
+  </head>
   <body>
-    <header>
-      <div class="logo">
-        <use href="./img/yacht-logo.png"></use>
-        <use href="./img/yacht Adventures.svg"></use>
+    <!-- header section -->
+    <header class="header">
+      <div class="header-container container">
+        <nav class="nav">
+          <a class="logo-header-link" href="./index.html">
+            <svg class="logo-header-icon">
+              <use href="./images/icon.svg#logo"></use>
+            </svg>
+            <span class="logo-header-text">Yacht Adventures</span>
+          </a>
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link active link" href=" ">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href=" ">Yachts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-toggle-icon" width="24" height="24">
+            <use href="./images/icon.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
-      <nav>
-        <ul class="main-nav">
-          <li>
-            <a class="" href="">About</a>
+    </header>
+
+    <main>
+      <!-- Mobile menu -->
+      <div class="menu-container js-menu-container menu-decor" id="mobile-menu">
+        <a class="logo-mobile-link logo-mobile link" href="./index.html">
+          <svg class="logo-header-icon" width="16" height="18">
+            <use href="./images/icon.svg#logo"></use>
+          </svg>
+          <span class="logo-header-text link">Yacht Adventures</span>
+        </a>
+
+        <button class="menu-toggle js-close-menu">
+          <svg class="modal-icon" width="24" height="24">
+            <use href="./images/icon.svg#icon-mobile-close"></use>
+          </svg>
+        </button>
+
+        <ul class="mobile-menu">
+          <li class="mobile-item">
+            <a class="mobile-link active-mobile link" href="./index.html">
+              About
+            </a>
           </li>
-          <li>
-            <a class="" href="">Yacht</a>
+          <li class="mobile-item">
+            <a class="mobile-link link" href="./portfolio.html"> Yachts </a>
           </li>
-          <li>
-            <a class="" href="">Reviews</a>
+          <li class="mobile-item">
+            <a class="mobile-link link" href=""> Reviews </a>
           </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </main>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
+</html>
