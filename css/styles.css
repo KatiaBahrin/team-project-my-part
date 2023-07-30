@@ -88,15 +88,14 @@ img {
   gap: 8px;
 }
 
-.logo-header-icon {
-  height: 23px;
-  width: 20px;
+.logo-header-text {
+  color: var(--white, #f6f5ef);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
-
-.logo-header-mobile {
-  gap: 8px;
-} 
-
 
 .nav-list {
   display: none;
@@ -215,11 +214,11 @@ img {
   transform: translateX(0);
 }
 
-.mobile-link {
+.text-header-mobile {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.7;
+  line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
