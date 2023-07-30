@@ -94,18 +94,9 @@ img {
 }
 
 .logo-header-mobile {
-  width: 18px;
-height: 18px;
+  gap: 8px;
 } 
 
-.logo-header-text {
-  color: var(--white, #f6f5ef);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.6;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
 
 .nav-list {
   display: none;
