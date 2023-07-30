@@ -94,7 +94,6 @@ img {
 }
 .logo-header-text {
   color: var(--white, #f6f5ef);
-  font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.6;
