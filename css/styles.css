@@ -1,11 +1,9 @@
-
-
-/*----------------header---------------*/
-
-.header {
-  background: var(--dark-blue, #11131f);
+:root {
+  --primary-font: "DM Sans", sans-serif;
+  --font-size: 14px;
+  --white: #f6f5ef;
+  --dark-blue: #11131f;
 }
-
 
 ul,
 ol {
@@ -17,7 +15,45 @@ ol {
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  display: block;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--main-white-cl);
+  font-family: var(--primary-font);
+  font-size: var(--font-size);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*-------------------------------------*/
+/*----------------header---------------*/
+/*-------------------------------------*/
+
+.header {
+  background: var(--dark-blue, #11131f);
+}
 
 .header-container {
   padding: 24px 20px;
@@ -58,6 +94,7 @@ a {
 }
 .logo-header-text {
   color: var(--white, #f6f5ef);
+  font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.6;
@@ -77,9 +114,9 @@ a {
   text-transform: uppercase;
 }
 
-
-/*------------Mobile menu--------------*/
-
+/*-------------------------------------*/
+/*------------mobile menu--------------*/
+/*-------------------------------------*/
 
 .menu-toggle {
   min-height: 24px;
@@ -197,7 +234,9 @@ a {
   gap: 8px;
 }
 
+/*-------------------------------------*/
 /*-----------header media--------------*/
+/*-------------------------------------*/
 
 @media only screen and (min-width: 768px) {
   .menu-toggle {
