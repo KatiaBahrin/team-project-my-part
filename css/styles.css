@@ -88,11 +88,16 @@ img {
   gap: 8px;
 }
 
+.logo-header-icon {
+  height: 23px;
+  width: 20px;
+}
 .logo-header-text {
   color: var(--white, #f6f5ef);
-  font-size: 18px;
+  font-family: DM Sans;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 1.18;
+  line-height: 1.6;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
@@ -216,17 +221,9 @@ img {
 
 .mobile-link {
   color: var(--white, #f6f5ef);
+  font-family: DM Sans;
   font-weight: 700;
   line-height: 1.7;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
-}
-
-.text-header-mobile {
-  color: var(--white, #f6f5ef);
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
