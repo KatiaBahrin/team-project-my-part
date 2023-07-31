@@ -137,11 +137,10 @@ img {
   background-color: #11131f;
 }
 .menu-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
   position: fixed;
   padding: 24px 20px;
