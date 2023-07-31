@@ -229,7 +229,8 @@ img {
   text-transform: uppercase;
 }
 .modal-icon {
-  stroke:#f6f5ef;
+  stroke-width: 1.3px;
+  stroke: var(--white, #F6F5EF);
 }
 .logo-mobile-link {
   display: flex;
