@@ -135,7 +135,7 @@ img {
 }
 
 .menu-toggle-icon {
-  fill: #f6f5ef;
+  fill: var(--white);
   background-color: #11131f;
 }
 .menu-container {

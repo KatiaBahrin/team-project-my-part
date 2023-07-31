@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
-   <symbol id="icon-x-close" viewBox="0 0 24 24">
+   <symbol id="icon-x-close" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.733" d="M24 8 8 24M8 8l16 16"/>
     </symbol>
     <symbol id="icon-modal-menu" viewBox="0 0 46 32">
