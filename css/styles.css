@@ -136,8 +136,8 @@ img {
 
 .menu-toggle-icon {
   fill: var(--white);
-
-} 
+  background-color: #11131f;
+}
 .menu-container {
   position: relative;
   overflow: hidden;
