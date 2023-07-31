@@ -214,6 +214,14 @@ img {
   transform: translateX(0);
 }
 
+.mobile-link {
+  color: var(--white, #f6f5ef);
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
 .text-header-mobile {
   color: var(--white, #f6f5ef);
   font-size: 14px;
