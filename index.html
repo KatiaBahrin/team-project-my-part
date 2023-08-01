@@ -20,22 +20,9 @@
     <!-- header section -->
     <header class="header">
       <div class="header-container container">
-        <nav class="nav">
+        <nav class="header-nav">
           <a class="logo-header-link" href="">
-              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
-                <mask id="mask0_3500_15" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="23" height="23">
-                  <path d="M0 18.4153L5.18842 23H20.4087L22.5879 19.9381L0.00191667 18.4153H0ZM13.4023 0V18.2783L20.4068 18.7603L13.4023 0ZM12.4478 3.08008L2.32779 17.481L12.4478 18.1642V3.08008Z" fill="black"/>
-                </mask>
-                <g mask="url(#mask0_3500_15)">
-                  <path d="M0 0H23V23H0V0Z" fill="url(#paint0_linear_3500_15)"/>
-                </g>
-                <defs>
-                  <linearGradient id="paint0_linear_3500_15" x1="9.79396" y1="3.48665e-06" x2="21.5409" y2="0.444325" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#BEC7C2"/>
-                    <stop offset="1" stop-color="#A1B5BA"/>
-                  </linearGradient>
-                </defs>
-              </svg>
+            <img class="yacht-icon" src="./images/ship_3x.png" alt="yacht">
               <span class="logo-header-text">Yacht Adventures</span>
           </a>
           <ul class="nav-list list">
@@ -61,8 +48,6 @@
         </button>
       </div>
     </header>
-
-    <main>
       <!-- Mobile menu -->
       <div class="menu-container js-menu-container menu-decor" id="mobile-menu">
         <a class="logo-mobile-link logo-mobile link" href="./index.html">
@@ -80,7 +65,7 @@
                 </linearGradient>
               </defs>
             </svg>
-            <span class="text-header-mobile">Yacht Adventures</span>
+            <span class="logo-header-text">Yacht Adventures</span>
         </a>
 
         <button class="menu-toggle js-close-menu">
@@ -103,14 +88,12 @@
           </li>
         </ul>
       </div>
-    </main>
-
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="js/mobile-menu.js"></script>
+    <script defer src="js/modal-menu.js"></script>
   </body>
 </html>
